@@ -1,0 +1,15 @@
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import matplotlib.pyplot as plt
+
+
+data1=pd.read_csv('/content/drive/MyDrive/KnowledgeEngineeringLab/Lab02:LoadingDataset/Dataset.csv')
+
+data1.head() //for showing all data from the dataset
+
+data1.info()  //for showing all data colomn information like datatype
+
